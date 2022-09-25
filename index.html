@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Primeiro projeto!!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style> 
+    body { /*style é o CSS*/
+      background-color: white; /*comentários em CSS */
+      color: black;
+      font: normal 20pt Arial;
+    } 
+    h3 { 
+      color: grey;
+    } p {
+      color: blue;
+    }
+    </style>
+  
+  </head>
+  <body>
+    <h3>Ei...</h3> 
+    <!--
+    <h3(h1  h2)> é o título </h3>
+    <p> é o o texto </p>
+    Para html é assim que faz comentários
+    -->
+    <p>Tu é gay?</p>
+    <script>
+    //PARA NOME
+    /*window.confirm('Clique em ok') //Janela de confirmação
+    var nome = window.prompt('Digite seu nome')//pergunta em janela
+    alert('Olá ' + nome + '!')*/
+    
+    /*
+    O + serve para adição e TBM para concatenação
+    number + number = adição
+    string + string = concatenação
+    */
+    var n1 = Number(window.prompt('Fale um número'))
+    var n2 = Number(window.prompt('Fale outro número'))
+    /*Number.parseInt e parseFloat serve para mudar uma String para número
+Number.parseInt = força número inteiro
+Number.parseFloat = força número real
+Number sozinho = real e inteiro
+
+String(n)
+n.toString*/
+    var s = n1 * n2
+    //window.alert('a soma é ' + s)
+    window.alert(`A soma de ${n1} x ${n2} é ${s}`);
+    
+    </script>
+  </body>
+</html>
